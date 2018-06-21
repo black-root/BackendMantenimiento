@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  backendmantenimiento:
+    image: ${DOCKER_REGISTRY}backendmantenimiento
+    build:
+      context: .
+      dockerfile: BackendMantenimiento\Dockerfile
